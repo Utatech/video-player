@@ -1,0 +1,74 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: cursive;
+	scroll-behavior: smooth;
+}
+#tombol{
+	display: none;
+}
+
+#containers{
+	padding: 20px;
+}
+
+#container{
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#title{
+	/*text-align: center;*/
+	font-size: 1.5rem;
+}
+
+#head-upload{
+	border-bottom: 1px solid #333;
+	margin-bottom: 10px;
+}
+
+#video{
+	justify-content: center;
+	position: relative;
+}
+
+video{
+	display: none;
+	margin: auto;
+	width: 100%;
+	max-width: 852px;
+	max-height: 480px;
+}
+#dataDiri{
+	display: none;
+	margin: auto;
+	max-width: 852px;
+	max-height: 480px;
+}
+
+span{
+	display: flex;
+	justify-content: center;
+}
+
+#form{
+	display: flex;
+	flex-direction: column;
+}
+
+#nim{
+	width: 20%;
+}
+#nama{
+	width: 20%;
+}
+
+#dataDiri{
+	padding: 0 20px 20px;
+}
+
+table{
+	text-align: left;
+}
