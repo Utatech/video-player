@@ -72,3 +72,16 @@ span{
 table{
 	text-align: left;
 }
+
+@media only screen and (max-width: 480px){
+	#nim{
+		width: 100%;
+	}
+	#nama{
+		width: 100%;
+	}
+
+	table{
+		font-size: 0.8rem;
+	}
+}
